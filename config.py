@@ -1,0 +1,5 @@
+data_root = './small_copy/'
+train_csv = data_root+'train_ship_segmentations_v2.csv'
+submission_csv = 'sample_submission.csv'
+# train_dir, test_dir = data_root+'train/', data_root+'test/'
+train_dir, test_dir = data_root+'train/', 'NONE'
